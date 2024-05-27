@@ -620,7 +620,7 @@ services:
 ###########################################################################
 ###########################################################################
   unpackerr:
-    image: cr.hotio.dev/hotio/unpackerr:latest
+    image: ghcr.io/hotio/unpackerr:nightly-5f01807
     container_name: unpackerr
     restart: unless-stopped
     volumes:
